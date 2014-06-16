@@ -27,7 +27,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "cucumber": "~0.3.0"
+    "cucumber": "https://github.com/nicolassenechal/cucumber-js/archive/v0.4.0a.tar.gz"
   },
   "devDependencies": {
     "grunt": "~0.4.0",
