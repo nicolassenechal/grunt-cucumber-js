@@ -11,6 +11,7 @@ module.exports = function (grunt) {
     var steps = options.steps;
     var tags = options.tags;
     var format = options.format;
+    var report = options.report;
     var modulePath = options.modulePath;
 
     grunt.verbose.writeflags(options, 'Options');
