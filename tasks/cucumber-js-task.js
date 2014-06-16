@@ -62,6 +62,11 @@ module.exports = function (grunt) {
       execOptions.push(format);
     }
 
+    if (! _.isEmpty(report)) {
+      execOptions.push('-report');
+      execOptions.push(report);
+     }
+
     var cucumberPath = 'cucumber';
     if (! _.isEmpty(modulePath)) {
       cucumberPath = modulePath;
